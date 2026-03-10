@@ -1,7 +1,5 @@
-def calculate(price, discount)
-  price - discount
-end
+require 'httparty'
 
-def process_payment(user)
-  puts user
+def calculate(price)
+  price
 end
