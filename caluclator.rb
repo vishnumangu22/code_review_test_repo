@@ -1,3 +1,3 @@
-def calculate(price)
-  price
+def calculate(price discount)
+  price - discount
 end
