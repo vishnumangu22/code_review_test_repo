@@ -1,2 +1,5 @@
-def calculate(price discount)
-  price - discount
+class Calculator
+  def compute(price)
+    price
+  end
+end
