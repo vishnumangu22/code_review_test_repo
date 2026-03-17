@@ -3,4 +3,3 @@ class OrderService
     calc = Calculator.new
     calc.calculate(100, 10)
   end
-end
