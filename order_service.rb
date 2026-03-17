@@ -1,3 +1,6 @@
-def process_order(price, discount)
-  calculate(price, discount)
+class OrderService
+  def total
+    calc = Calculator.new
+    calc.calculate(100, 10)
+  end
 end
